@@ -101,16 +101,10 @@ _Tabla: Patrones de diseño._
 |  |  | Propósito |  |  |
 | :--- | :--- | :--- | :--- | :--- |
 |  |  | **De creación** | **Estructurales** | **De comportamiento** |
-| **Ámbito** | **Clase** | Factory Method | Adapter \(de clases\) | InterpreterTemplate Method |
-|  | **Objeto** | Abstract FactoryBuilderPrototypeSingleton | Adapter \(de objetos\)BridgeCompositeDecoratorFacadeFlyweightProxy | Chain of ResponsabilityCommandIteratorMediatorMementoObserverStateStrategyVisitor |
-
-
+| **Ámbito** | **Clase** | Factory Method | Adapter \(de clases\) | Interpreter, Template Method |
+|  | **Objeto** | Abstract Factory, Builder, Prototype, Singleton | Adapter \(de objetos\)Bridge, Composite, Decorator, Facade, Flyweight, Proxy | Chain of Responsability, Command, Iterator, Mediator, Memento, Observer, State, Strategy, Visitor |
 
 Esta clasificación está basada en dos criterios. El primero de ellos denominado propósito, refleja que hace un patrón. Los patrones pueden tener un propósito de creación, estructural o de comportamiento. Los patrones de creación tienen que ver con el proceso de creación de objetos. Los patrones estructurales tratan con la composición de clases u objetos. Los de comportamiento caracterizan el modo en que las clases y objetos interactúan y se reparten la responsabilidad.
 
 El segundo criterio, denominado ámbito, especifica si el patrón se aplica principalmente a clases o a objetos. Los patrones de clases se ocupan de las relaciones entre las clases y sus subclases. Estas relaciones se establecen a través de la herencia, de modo que son relaciones estáticas. Los patrones de objetos tratan con las relaciones entre objetos, que pueden cambiarse en tiempo de ejecución y son más dinámicas.
-
-
-
-
 
