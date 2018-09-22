@@ -92,11 +92,11 @@ Estas son algunas técnicas útiles para implementar el patrón Abstract Factory
 
 ## Código de ejemplo
 
-Aplicaremos el patrón Abstract Factory para crear una conexión a un motor de base de datos y utilizar su correspondiente ORM. Dicho código junto con la estructura del patrón, está disponible en nuestro repositorio de github.
+Aplicaremos el patrón Abstract Factory para crear una conexión a un motor de base de datos y utilizar su correspondiente ORM. Dicho código junto con la estructura del patrón, está disponible en nuestro repositorio de github [https://github.com/alejandro088/design-patterns-code](https://github.com/alejandro088/design-patterns-code).
 
 El código básicamente lo que hace, es proporcionar una clase abstracta Connection y varias subclases que heredan de esta clase, cada una deberá implementar, el algoritmo correspondiente para la conexión del motor de base de datos que hayamos especificado en el Cliente. En el código de ejemplo, solo se mostrará los datos de la conexión según el driver que hayamos establecido, no hemos proporcionado ninguna lógica adicional.
 
 Como ejercicio, usted deberá implementar en cada conexión, el algoritmo para realizar el acceso a la base de datos de cada motor.
 
- ź
+ź
 
