@@ -24,13 +24,10 @@ Una FabricaDeUtiles también fuerza a que se cumplan las dependencias entre las 
 
 Úsese el patrón Abstract Factory cuando
 
-·Un sistema debe ser independiente de como se crean, componen y presentan sus productos.
-
-·Un sistema debe ser configurado con una familia de productos de entre varias.
-
-·Una familia de objetos producto relacionados está diseñada para ser usada conjuntamente, y es necesario hacer cumplir esta restricción.
-
-·Quiere proporcionar una biblioteca de clases de productos, y solo quiere revelar sus interfaces, no sus implementaciones.
+* Un sistema debe ser independiente de como se crean, componen y presentan sus productos.
+* Un sistema debe ser configurado con una familia de productos de entre varias.
+* Una familia de objetos producto relacionados está diseñada para ser usada conjuntamente, y es necesario hacer cumplir esta restricción.
+* Quiere proporcionar una biblioteca de clases de productos, y solo quiere revelar sus interfaces, no sus implementaciones.
 
 ## Estructura
 
@@ -38,27 +35,11 @@ Una FabricaDeUtiles también fuerza a que se cumplan las dependencias entre las 
 
 ## Participantes
 
-·FabricaAbstracta \(FabricaDeUtiles\)
-
-oDeclara una interfaz para operaciones que crean objetos producto abstractos.
-
-·FabricaConcreta \(FabricaDeUtilesMotif, FabricaDeUtilesPM\)
-
-oImplementa las operaciones para crear objetos producto concretos.
-
-·ProductoAbstracto \(Ventana, BarraDeDesplazamiento\)
-
-oDeclara una interfaz para un tipo de objeto producto.
-
-·ProductoConcreto \(VentanaMotif, BarraDeDesplazamientoMotif\)
-
-oDefine un objeto producto para que sea creado por la fabrica correspondiente.
-
-oImplementa la interfaz ProductoAbstracto
-
-·Cliente
-
-oSolo unas interfaces declaradas por las clases FabricaAbstracta y ProductoAbstracto.
+* FabricaAbstracta \(FabricaDeUtiles\): Declara una interfaz para operaciones que crean objetos producto abstractos.
+* FabricaConcreta \(FabricaDeUtilesMotif, FabricaDeUtilesPM\): Implementa las operaciones para crear objetos producto concretos.
+* ProductoAbstracto \(Ventana, BarraDeDesplazamiento\): Declara una interfaz para un tipo de objeto producto.
+* ProductoConcreto \(VentanaMotif, BarraDeDesplazamientoMotif\): Define un objeto producto para que sea creado por la fabrica correspondiente. Implementa la interfaz ProductoAbstracto
+* Cliente: Solo unas interfaces declaradas por las clases FabricaAbstracta y ProductoAbstracto.
 
 ## Colaboraciones
 
