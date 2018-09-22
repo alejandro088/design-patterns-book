@@ -18,7 +18,7 @@ Hay una subclase concreta de FabricaDeUtiles para cada estándar de interfaz de 
 
 Una FabricaDeUtiles también fuerza a que se cumplan las dependencias entre las clases concretas de útiles. Una barra de desplazamiento Motif debería usarse con un botón Motif y un editor de texto Motif, y esa restricción se cumple automáticamente como consecuencia de usar una FabricaDeUtilesMotif.
 
-![](file:///C:/Users/ALEJAN~1/AppData/Local/Temp/msohtmlclip1/01/clip_image002.jpg)
+![](/assets/abstract-factory1.png)
 
 ## Aplicabilidad
 
@@ -34,7 +34,7 @@ Una FabricaDeUtiles también fuerza a que se cumplan las dependencias entre las 
 
 ## Estructura
 
-![](file:///C:/Users/ALEJAN~1/AppData/Local/Temp/msohtmlclip1/01/clip_image004.jpg)
+![](/assets/abstract-factory2.png)
 
 ## Participantes
 
