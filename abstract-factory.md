@@ -98,5 +98,3 @@ El código básicamente lo que hace, es proporcionar una clase abstracta Connect
 
 Como ejercicio, usted deberá implementar en cada conexión, el algoritmo para realizar el acceso a la base de datos de cada motor.
 
-ź
-
